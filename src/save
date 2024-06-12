@@ -1,0 +1,40 @@
+<div className="total col-12 col-lg-5  p-2">
+          <div>
+            <p className="price">PRICE DETAILS ({} Items)</p>
+          </div>
+          <div className="d-flex justify-content-between">
+            <p className="allhead">Total MRP</p>
+            <p className="end">{}111</p>
+          </div>
+          <div className="d-flex justify-content-between">
+            <p className="allhead">Discount on MRP</p>
+            <p className="end">Apply Coupon</p>
+          </div>
+          <div className="d-flex justify-content-between">
+            <p className="allhead">Coupon Discount</p>
+            <p className="end">Apply Coupon</p>
+          </div>
+          <div className="d-flex justify-content-between">
+            <p className="allhead">
+              Platform Fee <span className="pink">Know More</span>
+            </p>
+            <p className="end">FREE</p>
+          </div>
+          <div className="d-flex justify-content-between">
+            <p className="allhead">
+              Shipping Fee <span className="pink">Know More</span>
+            </p>
+            <p className="end">
+              79<span>FREE</span>
+            </p>
+          </div>
+          <hr />
+          <div className="d-flex justify-content-between">
+            <p className="allhead">Total Amount</p>
+            <p className="end">{}111</p>
+          </div>
+          <div className="center">
+            <button>PLACE ORDER</button>
+          </div>
+        </div>
+      

@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+.NavLink{
+    text-decoration: none;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Brand{
+    color: black;
+    font-size:22px;
+    font-weight:bold;
+    
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Shirt{
+    color: rgb(149, 149, 149);
+    font-size:20px;
+    /* font-weight:100px; */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Money{
+    color: black;
+    font-size:22px;
+    font-weight:bold;
 }
-
-.App-link {
-  color: #61dafb;
+.MRP{
+    color: rgb(110, 109, 109);
+    font-size:20px;
+    font-weight: lighter;
+    text-decoration:line-through;
+    margin: 0px 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Discount{
+    color: darkorange;
+    font-weight: 100px;
+    font-size:19px;
+}
+.firstcard{
+    background-color: whitesmoke;
+}
+.imagesize{
+    width:280px;
+    height: 300px;
+}
+.Link{
+    position: relative;
+    text-decoration: none;
+    padding-left:20px;
+    font-weight: bold;
+    color: black;
+}
+.Link1{
+    position: relative;
+    margin-top:45px;
 }

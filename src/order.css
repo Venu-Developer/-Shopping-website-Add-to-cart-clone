@@ -1,0 +1,106 @@
+.order{
+   /* width: 400px; */
+   border:1px solid rgb(228, 222, 222);
+}
+.orderimage img{
+    width: 150px;
+    height:210px;
+}
+.drak{
+    color: rgb(40, 39, 39);
+    font-size:18px;
+    font-weight: 600;
+}
+.ligth1{
+    color: rgb(85, 81, 81);
+    font-size:18px;
+    font-weight:400;
+}
+.ligth{
+    color: rgb(135, 133, 133);
+    font-size:13px;
+      
+}
+button{
+    font-weight: 500;
+/* background-color: rgb(252, 189, 189); */
+} 
+.line{
+    color: rgb(135, 133, 133);
+    font-size:15px;
+    text-decoration:line-through;     
+}
+.pink{
+    color: rgb(245, 116, 161);
+}   
+.return1{
+    font-weight:500;
+} 
+.return{
+   color: rgb(84, 85, 86);
+}
+.total{
+    border: 1px solid rgb(226, 215, 215);
+    width: 400px;
+    height: 380px;
+}
+.center{
+    text-align: center;
+   
+}
+.center button{
+    background-color:rgb(230, 37, 98) ;
+    color: aliceblue;
+}
+
+.price{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(144, 146, 147);
+}
+.allhead{
+    color: rgb(63, 64, 64);
+    font-weight:300;
+}
+.color{
+    background-color: whitesmoke;
+    
+    
+}
+.Bagcolor{
+    color: rgb(109, 170, 149);
+    font-weight:400px;
+    text-decoration: underline;
+    
+}
+ .free{
+    text-decoration: line-through;
+    color: rgb(134, 137, 137);
+}
+.free1{
+    text-decoration:none;
+    color: rgb(50, 212, 158);
+}
+body::-webkit-scrollbar{
+    display: none;
+    
+}
+.menu{
+    width: 95%;
+}
+.goback{
+    text-decoration: none;
+    text-align: end;
+    /* margin-left:85%; */
+    padding-top: 3px;
+    padding-right: 50px;
+}
+.goback a{
+    text-decoration:none;
+    background-color:rgb(88, 75, 79);
+    color: aliceblue;
+    font-weight:500;
+    padding-left: 2px;
+    padding-right: 2px;
+
+}

@@ -1,0 +1,183 @@
+
+.menu{
+    display: flex;
+}
+.menuall{
+    display: flex;
+    width: 95%;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.myntra img{
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.menubag{
+    display: flex; 
+    justify-content: center; 
+    
+}
+.carticon{
+    margin-top: 32px;
+    padding-left: 20px;
+    font-size: 25px;
+    color: black;   
+}
+
+.bi{
+    position:relative;
+}
+.bagcount{
+    position: absolute;
+    font-size: 15px;
+    background-color:rgb(230, 102, 117);
+    width: 25px;
+    height: 25px;
+    color: aliceblue;
+    border-radius:50%;
+    left:15px;
+    text-align: center;
+}
+.image img{
+    /* margin:30px;
+    width: 280px;
+    height: 420px;
+    margin-right: -10px; */
+    width: 280px;
+    height: 420px;
+}
+.select-card{
+    width: 280px;
+    height: 420px;
+}
+.sroll{
+    overscroll-behavior-x:auto;
+}
+.Tax{
+    color: rgb(92, 196, 161);
+    font-weight:bold;
+    font-size:15px;
+}
+.Size{
+    color: black;
+    font-size:15px;
+    font-weight: bold;
+
+}
+.Rating{
+    color: black;
+    font-weight: bold;
+    border: 1px solid rgb(225, 221, 221);
+    width:150px;
+    padding: 5px;
+    
+}
+ .star{
+  color:rgb(130, 179, 130);
+
+  
+}
+.Line{
+    color: rgb(202, 204, 206);
+}
+.Point{
+    color: rgb(170, 170, 167);
+    font-weight: lighter;
+}
+
+ .Chart{
+    color: rgb(230, 102, 117);
+    font-weight: 400px;
+    font-size: 12px;
+    padding-top: 2px;
+    padding-left: 10px;
+}
+button{
+    border:none;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.circle{
+    margin: 2px;
+    width:30px;
+    /* padding: 5px; */
+    border: 1px solid rgb(170, 155, 155);
+    border-radius: 50%;
+    
+}
+.Addtobag{
+    
+    text-decoration: none;
+    color:white ;
+    border:1px solidrgb(201, 7, 88);
+    background-color:rgb(230, 37, 98) ;
+    
+}
+.Wishlist{
+    
+    text-decoration: none;
+    color:rgb(13, 11, 11) ;
+    border:1px solid rgb(211, 206, 206);
+    
+}
+.add{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+.bagfont{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+ .fullshow{
+    /* display: flex;
+    flex-direction:row; */
+    display:flex ;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    height:100%;
+   
+ }
+ .itemcolor{
+    background-color: whitesmoke;
+    width: 100%;
+    
+ }
+ #bordercolor{
+    border:1px solid rgb(230, 37, 98) ; 
+    /* background-color: red; */
+ }
+.goback NavLink{
+    color: red;
+}
+ @media (max-width:630px){
+    .buy{
+        
+        margin-left: -130%;
+    }
+    .add{
+        
+        padding-left: 10px;
+        padding-right: 10px;
+        /* padding-top:40px; */
+    } 
+    .text{
+        padding-top: 5px;
+    }
+ }
+ /* @media (min-width:920px)
+ {
+        .fullshow{
+        margin-left: 18%;
+        }
+ } */
